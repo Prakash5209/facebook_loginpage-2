@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: rgba(241, 241, 241, 0.959);
+}
+.universe{
+    display: flex;
+    justify-content:space-evenly;
+    position: relative;
+    top: 150px;
+    left: 20px;
+}
+.header-border{
+    position: relative;
+    top:50px;
+}
+.header{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:4rem;
+    color: rgb(35, 122, 223);
+}
+.slogan{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+}
+.form .border{
+    padding: 30px;
+}
+.form p{
+    text-align: center;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.border{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid silver;
+    height: 350px;
+    width: 400px;
+    border-radius:10px;
+    box-shadow: 0 0 5px 1px silver;
+    text-align: center;
+}
+.border a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(35, 122, 223);
+}
+.border .create_account{
+    background-color: rgb(31, 194, 31);
+    color: white;
+}
+input{
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    padding:10px;
+}
+button{
+    height: 45px;
+    background-color: rgb(35, 122, 223);
+    border-radius: 5px;
+    border: none;
+}
+button h2{
+    color: white;
+}
